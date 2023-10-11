@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YoonData", "YoonData\YoonData.vcxproj", "{75364A2D-D7A3-4F80-9CF0-59B82F489BBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75364A2D-D7A3-4F80-9CF0-59B82F489BBB}.Debug|x64.ActiveCfg = Debug|x64
+		{75364A2D-D7A3-4F80-9CF0-59B82F489BBB}.Debug|x64.Build.0 = Debug|x64
+		{75364A2D-D7A3-4F80-9CF0-59B82F489BBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{75364A2D-D7A3-4F80-9CF0-59B82F489BBB}.Debug|x86.Build.0 = Debug|Win32
+		{75364A2D-D7A3-4F80-9CF0-59B82F489BBB}.Release|x64.ActiveCfg = Release|x64
+		{75364A2D-D7A3-4F80-9CF0-59B82F489BBB}.Release|x64.Build.0 = Release|x64
+		{75364A2D-D7A3-4F80-9CF0-59B82F489BBB}.Release|x86.ActiveCfg = Release|Win32
+		{75364A2D-D7A3-4F80-9CF0-59B82F489BBB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B96DE4DD-9FD3-4C97-A695-742061BFDD4E}
+	EndGlobalSection
+EndGlobal
