@@ -20,5 +20,7 @@ int main()
 {
 	HanoiTower(3, 'A', 'B', 'C');
 
+	int arr[] = { 1,3,5,6,7 };
+
 	return 0;
 }
