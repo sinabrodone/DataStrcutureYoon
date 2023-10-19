@@ -3,24 +3,37 @@
 
 #include <iostream>
 using namespace std;    
-
-void HanoiTower(int n, char from, char by, char to)
+class Point
 {
-	if (n == 1)
-		printf("원반1 %c에서 %c로 이동\n", from, to);
-	else
+public:
+
+	int xpos;
+	int ypos;
+
+public:
+	Point(int x = 0, int y = 0)
+		:xpos(x), ypos(y)
 	{
-		HanoiTower(n - 1, from, to, by);
-		printf("원반%d %c에서 %c로 이동\n", n, from, to);
-		HanoiTower(n - 1, by, from, to);
+
 	}
+};
+
+template<typename T>
+void Print(T a)
+{
+	cout << a << endl;
 }
+
+template<>
+void Print(Point& inPoint) 
+{
+	cout << inPoint.xpos << ", " << inPoint.ypos;
+}
+
 
 int main()
 {
-	HanoiTower(3, 'A', 'B', 'C');
-
-	int arr[] = { 1,3,5,6,7 };
-
+	Point p(2, 3);
+	Print(p);
 	return 0;
 }
