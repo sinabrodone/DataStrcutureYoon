@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{75364a2d-d7a3-4f80-9cf0-59b82f489bbb}</ProjectGuid>
-    <RootNamespace>YoonData</RootNamespace>
+    <ProjectGuid>{452a27bc-60c3-4c6b-bcb1-8cd0da663483}</ProjectGuid>
+    <RootNamespace>ArrayList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Users\kmy48\Downloads\Data_Structure_Src\Ch03\ArrayListPointStructBase\ArrayList.c" />
-    <ClCompile Include="..\..\..\Users\kmy48\Downloads\Data_Structure_Src\Ch03\ArrayListPointStructBase\PointListMain.c" />
-    <ClCompile Include="Point.c" />
+    <ClCompile Include="ArrayList.c" />
+    <ClCompile Include="NameCard.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Users\kmy48\Downloads\Data_Structure_Src\Ch03\ArrayListPointStructBase\ArrayList.h" />
-    <ClInclude Include="Point.h" />
+    <ClInclude Include="NameCard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
